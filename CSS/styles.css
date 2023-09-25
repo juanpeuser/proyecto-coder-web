@@ -53,6 +53,14 @@ a {
     color: #008bf0;
 }
 
+a:hover {
+    opacity: 70%;
+}
+
+a:active {
+    color: #ffa650;
+}
+
 ul li {
     display: inline-block;
 }
@@ -81,6 +89,7 @@ ul li {
 
 .titulares {
     margin-top: 100px;
+    margin-left: 4%;
     
 }
 
