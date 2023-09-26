@@ -377,7 +377,7 @@ main div p {
 .secNosotros {
 
     background-color: #008bf0;
-    background-image: url(imagescss/img_nosotros.png);
+    background-image: url(./imagescss/img_nosotros.png);
     background-size: 2000px;
     background-position: center;
     background-repeat: no-repeat;
@@ -386,7 +386,7 @@ main div p {
     max-height: 700px;
     height: 420px;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
 
 }
@@ -562,7 +562,7 @@ article {
 
 .secEspeciliadidadesHeader {
     background-color: #008bf0;
-    background-image: url(../imagescss/portadillaEspecialidades.png);
+    background-image: url(./imagescss/portadillaEspecialidades.png);
     background-size: 2000px;
     background-position: center;
     background-repeat: no-repeat;
@@ -571,7 +571,7 @@ article {
     max-height: 700px;
     height: 420px;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
     background-color: #fcf7ef;
     padding-top: 25px;
