@@ -255,7 +255,7 @@ main div p {
     -moz-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
     box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
 
-    background-image: url(/images/img_home.jpeg);
+    background-image: url(../images/img_home.jpeg);
     background-position: center -15%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -280,7 +280,7 @@ main div p {
     -moz-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
     box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
 
-    background-image: url(/images/ortodoncia.jpeg);
+    background-image: url(../images/ortodoncia.jpeg);
     background-position: center -15%;
     background-repeat: no-repeat;
     background-size: 101%;
@@ -306,7 +306,7 @@ main div p {
     -webkit-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
     -moz-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
     box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
-    background-image: url(/images/implantes.jpeg);
+    background-image: url(../images/implantes.jpeg);
 
     background-position: center -38%;
     background-repeat: no-repeat;
@@ -364,7 +364,7 @@ main div p {
 
     width: 28px;
     height: 28px;
-    background-image: url(/images/flecha.png);
+    background-image: url(../images/flecha.png);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-left: 15px;
@@ -486,7 +486,7 @@ article {
 }
 
 .esp1 {
-    background-image: url(/images/odontogeneral.jpeg);
+    background-image: url(../images/odontogeneral.jpeg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -497,7 +497,7 @@ article {
 }
 
 .esp2 {
-    background-image: url(/images/ortodoncia2.jpeg);
+    background-image: url(../images/ortodoncia2.jpeg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -508,7 +508,7 @@ article {
 }
 
 .esp3 {
-    background-image: url(/images/implante_dental.jpeg);
+    background-image: url(../images/implante_dental.jpeg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -519,7 +519,7 @@ article {
 }
 
 .esp4 {
-    background-image: url(/images/endodoncia.jpeg);
+    background-image: url(../images/endodoncia.jpeg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -530,7 +530,7 @@ article {
 }
 
 .esp5 {
-    background-image: url(/images/ortodoncia.jpeg);
+    background-image: url(../images/ortodoncia.jpeg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -562,7 +562,7 @@ article {
 
 .secEspeciliadidadesHeader {
     background-color: #008bf0;
-    background-image: url(imagescss/portadillaEspecialidades.png);
+    background-image: url(..imagescss/portadillaEspecialidades.png);
     background-size: 2000px;
     background-position: center;
     background-repeat: no-repeat;
@@ -594,7 +594,7 @@ article {
 
 .bulletTratamientos {
 
-    background-image: url(/CSS/imagescss/icono_check.png);
+    background-image: url(../CSS/imagescss/icono_check.png);
     background-position: top;
     background-color: #000000;
     background-size: contain;
