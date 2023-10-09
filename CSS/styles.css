@@ -1,198 +1,171 @@
+@charset "UTF-8";
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .botones {
-
-    color: #fcf7ef;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    margin-top: 35px;
-    -
+  color: #fcf7ef;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  margin-top: 35px;
 }
 
 .headbar {
-    height: 85px;
-    width: 100%;
-    position: fixed;
-    top: 0%;
-    background-color: #fcf7ef;
-    border-bottom: 3px solid #008bf0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-    z-index: 2;
-
+  height: 85px;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  background-color: #fcf7ef;
+  border-bottom: 3px solid #008bf0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  z-index: 2;
 }
 
 nav {
-
-    font-size: 16pt;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-    margin-right: 4%;
+  font-size: 16pt;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  margin-right: 4%;
 }
-.navNativa {
 
-    font-size: 16pt;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-    margin-right: 4%;
+.navNativa {
+  font-size: 16pt;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  margin-right: 4%;
 }
 
 nav li {
-    padding: 10px;
+  padding: 10px;
 }
 
-
 a {
-    text-decoration: none;
-    color: #008bf0;
+  text-decoration: none;
+  color: #008bf0;
 }
 
 a:hover {
-    opacity: 70%;
+  opacity: 70%;
 }
 
 a:active {
-    color: #ffa650;
+  color: #ffa650;
 }
 
 ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .logocontainer {
-    margin-left: 4%;
-    margin-top: 15px;
-
+  margin-left: 4%;
+  margin-top: 15px;
 }
 
 .tituloContenedor {
-
-    background-color:#81b8df;
-    background-image: url(imagescss/holme.jpeg);
-    background-size: 120%;
-    background-position: top;
-    background-repeat: no-repeat;
-    width: 100%;
-    max-height: 700px;
-    height: 700px;
-    display: flex;
-    align-items: center;
-
+  background-color: #81b8df;
+  background-image: url(imagescss/holme.jpeg);
+  background-size: 120%;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-height: 700px;
+  height: 700px;
+  display: flex;
+  align-items: center;
 }
 
 .titulares {
-    margin-top: 100px;
-    margin-left: 4%;
-    
+  margin-top: 100px;
+  margin-left: 4%;
 }
 
 h1 {
-    font-size: 8ex;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-    color: white;
-    letter-spacing: 3px;
-    line-height: 2.5ex;
-    text-shadow: rgb(0, 0, 0) 1px 0 7px;
-    width: 55%;
-
+  font-size: 8ex;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 3px;
+  line-height: 2.5ex;
+  text-shadow: rgb(0, 0, 0) 1px 0 7px;
+  width: 55%;
 }
 
 .bajada {
-    padding-top: 18px;
-    padding-bottom: 10px;
-    margin-bottom: 25px;
-    font-size: 16pt;
-    line-height: 24pt;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    color: white;
-    width: 40%;
-    text-shadow: rgb(0, 0, 0) 1px 0 5px;
-
+  padding-top: 18px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  font-size: 16pt;
+  line-height: 24pt;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: white;
+  width: 40%;
+  text-shadow: rgb(0, 0, 0) 1px 0 5px;
 }
 
 footer {
-
-    width: 100%;
-    height: 180px;
-
-    background-color: #008bf0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: end;
-    padding-bottom: 45px;
+  width: 100%;
+  height: 180px;
+  background-color: #008bf0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  padding-bottom: 45px;
 }
 
 .horarios {
-    font-size: 12pt;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 300;
-
-    color: #fcf7ef;
-    margin-left: 4%;
-    padding-left: 15px;
-
+  font-size: 12pt;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  color: #fcf7ef;
+  margin-left: 4%;
+  padding-left: 15px;
 }
 
 .contacto {
-    display: block;
+  display: block;
 }
 
 .tel {
-    list-style-image: url(imagescss/tel.png);
+  list-style-image: url(imagescss/tel.png);
 }
 
 .rel {
-    list-style-image: url(imagescss/rel.png);
+  list-style-image: url(imagescss/rel.png);
 }
 
 .mail {
-    list-style-image: url(imagescss/mail.png);
+  list-style-image: url(imagescss/mail.png);
 }
 
 ol li {
-
-    padding: 5px;
+  padding: 5px;
 }
 
 .legales {
-    padding-right: 4%;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 14pt;
-    color: #fcf7ef;
+  padding-right: 4%;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14pt;
+  color: #fcf7ef;
 }
 
 /* Principal */
-
 #home {
-
-    
-    width: 100%;
-    background-color: white;
-    display: grid;
-   
-
-    margin-left:1%;
-    margin-right: 8%;
-    grid-template-areas:
-
-
-        "cardodgral         cardortodoncia       cardimplantes "
-        "botonRectangular    botonRectangular   botonRectangular"
-    ;
-    grid-template-columns: 1fr 1fr 1fr;
-
-    grid-template-rows: 450px 150px;
-    height: 600px;
-
+  width: 100%;
+  background-color: white;
+  display: grid;
+  margin-left: 1%;
+  margin-right: 8%;
+  grid-template-areas: "cardodgral         cardortodoncia       cardimplantes " "botonRectangular    botonRectangular   botonRectangular";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 450px 150px;
+  height: 600px;
 }
 
 /*  {
@@ -200,910 +173,737 @@ ol li {
     top: -10%;
     width: 25%;
     height: 450px;;
-   
+
     background-color: white;
     border: 3px solid #008bf0;
     border-radius: 10%;
    box-shadow: rgb(192, 192, 192) 3px 0 10px;
-  
+
 } No aplica para nada*/
-
 main div h2 {
-
-    font-family: 'DM Sans', sans-serif;
-    font-size: 200%;
-    font-weight: 400;
-    color: #008bf0;
-    padding-top: 265px;
-    padding-left: 25px;
-    padding-right: 25px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 200%;
+  font-weight: 400;
+  color: #008bf0;
+  padding-top: 265px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 main div p {
-
-    font-family: 'DM Sans', sans-serif;
-    font-size: 100%;
-    font-weight: 400;
-    color: #000000;
-    padding-left: 25px;
-    padding-right: 25px;
-
+  font-family: "DM Sans", sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .botonCard {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
 }
 
 .cardodgral {
-    grid-area: cardodgral;
-    position: relative;
-    top: -10%;
-    max-width: 400px;
-    min-width: 380px;
-    height: 450px;
-    margin: 10px;
-    justify-self: center;
-
-    background-color: white;
-    border: 1px solid #008bf0;
-    border-radius: 10%;
-    -webkit-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
-    -moz-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
-    box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
-
-    background-image: url(../images/img_home.jpeg);
-    background-position: center -15%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-
+  grid-area: cardodgral;
+  position: relative;
+  top: -10%;
+  max-width: 400px;
+  min-width: 380px;
+  height: 450px;
+  margin: 10px;
+  justify-self: center;
+  background-color: white;
+  border: 1px solid #008bf0;
+  border-radius: 10%;
+  -webkit-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
+  -moz-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
+  box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
+  background-image: url(../images/img_home.jpeg);
+  background-position: center -15%;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .cardortodoncia {
-    grid-area: cardortodoncia;
-    position: relative;
-    top: -10%;
-    max-width: 400px;
-    min-width: 380px;
-    height: 450px;
-    margin: 10px;
-    justify-self: center;
-
-    background-color: white;
-    border: 1px solid #008bf0;
-    border-radius: 10%;
-    -webkit-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
-    -moz-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
-    box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
-
-    background-image: url(../images/ortodoncia.jpeg);
-    background-position: center -15%;
-    background-repeat: no-repeat;
-    background-size: 101%;
-
+  grid-area: cardortodoncia;
+  position: relative;
+  top: -10%;
+  max-width: 400px;
+  min-width: 380px;
+  height: 450px;
+  margin: 10px;
+  justify-self: center;
+  background-color: white;
+  border: 1px solid #008bf0;
+  border-radius: 10%;
+  -webkit-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
+  -moz-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
+  box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
+  background-image: url(../images/ortodoncia.jpeg);
+  background-position: center -15%;
+  background-repeat: no-repeat;
+  background-size: 101%;
 }
 
-
-
 .cardimplantes {
-    grid-area: cardimplantes;
-    position: relative;
-    top: -10%;
-    max-width: 400px;
-    min-width: 380px;   
-    height: 450px;
-    margin: 10px;
-    justify-self: center;
-
-
-    background-color: white;
-    border: 1px solid #008bf0;
-    border-radius: 10%;
-    -webkit-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
-    -moz-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
-    box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
-    background-image: url(../images/implantes.jpeg);
-
-    background-position: center -38%;
-    background-repeat: no-repeat;
-    background-size: 100%;
-
+  grid-area: cardimplantes;
+  position: relative;
+  top: -10%;
+  max-width: 400px;
+  min-width: 380px;
+  height: 450px;
+  margin: 10px;
+  justify-self: center;
+  background-color: white;
+  border: 1px solid #008bf0;
+  border-radius: 10%;
+  -webkit-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
+  -moz-box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
+  box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
+  background-image: url(../images/implantes.jpeg);
+  background-position: center -38%;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .botonLink {
-
-    border: 2px solid #008bf0;
-    padding: 10px 20px 10px 20px;
-    border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #fcf7ef;
-    background-color: #008bf0;
-
-
+  border: 2px solid #008bf0;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fcf7ef;
+  background-color: #008bf0;
 }
 
 .botonheader1 {
-
-    border: 2px solid #008bf0;
-    padding: 10px 20px 10px 20px;
-    border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #fcf7ef;
-    background-color: #008bf0;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-
+  border: 2px solid #008bf0;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fcf7ef;
+  background-color: #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
 }
 
-
 .botonRectangular {
-    grid-area: botonRectangular;
-    margin-bottom: 45px;
-    height: 55px;
-    width: 480px;
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    justify-content: center;;
-    align-items: center;
-    font-size: 20px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-
-    border: 2px solid #008bf0;
-
+  grid-area: botonRectangular;
+  margin-bottom: 45px;
+  height: 55px;
+  width: 480px;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  border: 2px solid #008bf0;
 }
 
 .flecha {
-
-    width: 28px;
-    height: 28px;
-    background-image: url(../images/flecha.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-left: 15px;
+  width: 28px;
+  height: 28px;
+  background-image: url(../images/flecha.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 15px;
 }
 
-.conozca {}
-
 /* Sección nosotros */
-
 .secNosotros {
-
-    background-color: #008bf0;
-    background-image: url(./imagescss/img_nosotros.png);
-    background-size: 2000px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position-x: fixed;
-    width: 100%;
-    max-height: 700px;
-    height: 420px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  background-color: #008bf0;
+  background-image: url(./imagescss/img_nosotros.png);
+  background-size: 2000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: fixed;
+  width: 100%;
+  max-height: 700px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .titularConocenos {
-
-    
-    letter-spacing: 8px;
-    opacity: 75%;
+  letter-spacing: 8px;
+  opacity: 75%;
 }
 
 .dra1 {
-    background-image: url(imagescss/odontologa1.png);
-
-    height: 355px;
-    width: 220px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-left: 8%;
+  background-image: url(imagescss/odontologa1.png);
+  height: 355px;
+  width: 220px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 8%;
 }
 
 .cv1 {
-    padding-top: 30px;
-    width: 350px;
-    height: 300px;
+  padding-top: 30px;
+  width: 350px;
+  height: 300px;
 }
 
 .cv2 {
-    padding-left: 20px;
-    width: 350px;
-    height: 300px;
-    margin-right: 8%;
+  padding-left: 20px;
+  width: 350px;
+  height: 300px;
+  margin-right: 8%;
 }
 
 .dra2 {
-    background-image: url(imagescss/odontologa1.png);
-
-    background-repeat: no-repeat;
-    height: 355px;
-    width: 220px;
-    background-size: 100%;
-    margin-left: 4%;
+  background-image: url(imagescss/odontologa1.png);
+  background-repeat: no-repeat;
+  height: 355px;
+  width: 220px;
+  background-size: 100%;
+  margin-left: 4%;
 }
 
 .introseccion {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 300;
-    line-height: 1.5;
-    color: #008bf0;
-    font-size: 2rem;
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 30px;
-    margin-bottom: 50px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #008bf0;
+  font-size: 2rem;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 #secNosotros {
-
-    background-color: #fcf7ef;
-    padding-top: 25px;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
+  background-color: #fcf7ef;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
 }
-
 
 h5 {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem;
-    padding-left: 25px;
-    padding-bottom: 10px;
-    color: #008bf0;
-
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  color: #008bf0;
 }
 
-.dras {}
-
-
 /*ESPECIALIDADES*/
-
 #secEspecialidades {
-    margin: auto;
-    width: 70%;
-    height: 1200px;
-    margin-bottom: 260px;
-    margin-top: 60px;
+  margin: auto;
+  width: 70%;
+  height: 1200px;
+  margin-bottom: 260px;
+  margin-top: 60px;
 }
 
 article {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 25px;
-    align-items: flex-start;
-
-
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  align-items: flex-start;
 }
 
 .esp1 {
-    background-image: url(../images/odontogeneral.jpeg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 340px;
-    height: 225px;
-
-    margin: 20px;
+  background-image: url(../images/odontogeneral.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 340px;
+  height: 225px;
+  margin: 20px;
 }
 
 .esp2 {
-    background-image: url(../images/ortodoncia2.jpeg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 340px;
-    height: 225px;
-
-    margin: 20px;
+  background-image: url(../images/ortodoncia2.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 340px;
+  height: 225px;
+  margin: 20px;
 }
 
 .esp3 {
-    background-image: url(../images/implante_dental.jpeg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 340px;
-    height: 225px;
-
-    margin: 20px;
+  background-image: url(../images/implante_dental.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 340px;
+  height: 225px;
+  margin: 20px;
 }
 
 .esp4 {
-    background-image: url(../images/endodoncia.jpeg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 340px;
-    height: 225px;
-
-    margin: 20px;
+  background-image: url(../images/endodoncia.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 340px;
+  height: 225px;
+  margin: 20px;
 }
 
 .esp5 {
-    background-image: url(../images/ortodoncia.jpeg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    width: 340px;
-    height: 225px;
-
-    margin: 20px;
+  background-image: url(../images/ortodoncia.jpeg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 340px;
+  height: 225px;
+  margin: 20px;
 }
 
 .artEspecialidades {
-    margin-top: 20px;
-    width: 800px;
-    height: auto;
+  margin-top: 20px;
+  width: 800px;
+  height: auto;
 }
 
 .botonArticle {
-
-    border: 2px solid #008bf0;
-    padding: 10px 20px 10px 20px;
-    border-radius: 20px;
-    color: #fcf7ef;
-    background-color: #008bf0;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-    margin: 100px 20px 20px 25px;
-
+  border: 2px solid #008bf0;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  color: #fcf7ef;
+  background-color: #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  margin: 100px 20px 20px 25px;
 }
 
 .secEspeciliadidadesHeader {
-    background-color: #008bf0;
-    background-image: url(./imagescss/portadillaEspecialidades.png);
-    background-size: 2000px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position-x: fixed;
-    width: 100%;
-    max-height: 700px;
-    height: 420px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fcf7ef;
-    padding-top: 25px;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
+  background-color: #008bf0;
+  background-image: url(./imagescss/portadillaEspecialidades.png);
+  background-size: 2000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: fixed;
+  width: 100%;
+  max-height: 700px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcf7ef;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
 }
 
-
 .parrafoArticulos {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .parrafoEspecilaidades {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
-
-
-
 .bulletTratamientos {
-
-    background-image: url(../CSS/imagescss/icono_check.png);
-    background-position: top;
-    background-color: #000000;
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 70px;
-    height: 70px;
-    margin: 20px;
-
+  background-image: url(../CSS/imagescss/icono_check.png);
+  background-position: top;
+  background-color: #000000;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  margin: 20px;
 }
 
 h6 {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-    font-size: 1.2rem;
-    padding-left: 25px;
-    padding-bottom: 10px;
-    color: #008bf0;
-
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  color: #008bf0;
 }
 
 .artTratamientos {
-    width: 480px;
-    font-size: smaller;
+  width: 480px;
+  font-size: smaller;
 }
 
 #secTratamientos {
-    padding-top: 60px;
-    padding-bottom: 100px;
-    margin: auto;
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  margin: auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
 }
 
 .botonTratamientos {
-    border: 1px solid #008bf0;
-    padding: 5px 10px 5px 10px;
-    border-radius: 5px;
-    color: #000000;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 500;
-    margin-left: 25px;
-
+  border: 1px solid #008bf0;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  color: #000000;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  margin-left: 25px;
 }
 
 /*----Contacto----*/
-
 .secContactoHead {
-
-    background-color: #008bf0;
-    background-image: url(imagescss/contacto_img.png);
-    background-size: 2000px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position-x: fixed;
-    width: 100%;
-    max-height: 700px;
-    height: 420px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  background-color: #008bf0;
+  background-image: url(imagescss/contacto_img.png);
+  background-size: 2000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: fixed;
+  width: 100%;
+  max-height: 700px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #secContacto {
- 
-    margin-left: 4%;
-    margin-right: 4%;
-    display: grid;
-    grid-template-areas:
-
-
-        "formulario datos"
-        "formulario mapa"
-    ;
-    grid-template-columns: 1fr 1fr;
-
-    grid-template-rows: 245px 300px;
-    height: 600px;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: grid;
+  grid-template-areas: "formulario datos" "formulario mapa";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 245px 300px;
+  height: 600px;
 }
 
-
-
 .formulario {
-    margin-top: 35px;
-    grid-area: formulario;
- 
-    display: flex;
- 
-    align-items: flex-start;
-    justify-content: center;
-   
-   
-
+  margin-top: 35px;
+  grid-area: formulario;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 form {
-    width: 100%;
+  width: 100%;
 }
-.datos {
-    margin-top: 35px;
-    grid-area: datos;
-   
-    display: flex;
-    flex-direction: row;
-    margin-left: 45px;
-    align-items: flex-start;
 
+.datos {
+  margin-top: 35px;
+  grid-area: datos;
+  display: flex;
+  flex-direction: row;
+  margin-left: 45px;
+  align-items: flex-start;
 }
 
 .mapa {
-    grid-area: mapa;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+  grid-area: mapa;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 iframe {
-
-    margin-left: 45px;
-    padding-bottom: 35px;
-    width: 100%;
-    height: 280px;
-
+  margin-left: 45px;
+  padding-bottom: 35px;
+  width: 100%;
+  height: 280px;
 }
 
 .contactoDatos {
-
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    color: #808080;
-    line-height: 1,3lh;
-    font-size: 1.3rem;
-    letter-spacing: 2px;
-
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #808080;
+  line-height: 1, 3lh;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
 }
 
 .telContacto {
-    list-style: none;
-    padding: 5px 25px;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 18px;
-    background-image: url(imagescss/fonito.svg);
+  list-style: none;
+  padding: 5px 25px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 18px;
+  background-image: url(imagescss/fonito.svg);
 }
 
 .horaContacto {
-    list-style: none;
-    padding: 5px 25px;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 18px;
-    background-image: url(imagescss/relojito.svg)
+  list-style: none;
+  padding: 5px 25px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 18px;
+  background-image: url(imagescss/relojito.svg);
 }
 
 .mailContacto {
-    list-style: none;
-    padding: 5px 25px;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 18px;
-    background-image: url(imagescss/sobrecito.svg)
+  list-style: none;
+  padding: 5px 25px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 18px;
+  background-image: url(imagescss/sobrecito.svg);
 }
 
 .direccionContacto {
-    list-style: none;
-    padding: 5px 25px;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 18px;
-    background-image: url(imagescss/globito.svg)
+  list-style: none;
+  padding: 5px 25px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 18px;
+  background-image: url(imagescss/globito.svg);
 }
 
 #nombre {
-
-    min-width: 100%;
-    font-size: 1.3rem;
-    height: 40px;
-    margin: 5px;
-    border: solid 2px #008bf0;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    color: #008bf0;
+  min-width: 100%;
+  font-size: 1.3rem;
+  height: 40px;
+  margin: 5px;
+  border: solid 2px #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #008bf0;
 }
+
 #nombre:hover {
-    background-color: #fcf7ef;
+  background-color: #fcf7ef;
 }
 
 #telefono {
-    min-width: 100%;
-    font-size: 1.3rem;
-    height: 40px;
-    margin: 5px;
-    border: solid 2px #008bf0;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    color: #008bf0;
+  min-width: 100%;
+  font-size: 1.3rem;
+  height: 40px;
+  margin: 5px;
+  border: solid 2px #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #008bf0;
 }
+
 #telefono:hover {
-    background-color: #fcf7ef;
+  background-color: #fcf7ef;
 }
 
 #email {
-    min-width: 100%;
-    font-size: 1.3rem;
-    height: 40px;
-    margin: 5px;
-    border: solid 2px #008bf0;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    color:#008bf0;
+  min-width: 100%;
+  font-size: 1.3rem;
+  height: 40px;
+  margin: 5px;
+  border: solid 2px #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #008bf0;
 }
 
-
 #email:hover {
-    background-color: #fcf7ef;
+  background-color: #fcf7ef;
 }
 
 #consulta {
-  
-    height: 300px;
-    width: 100%;
-    border: solid 2px #008bf0;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1.3rem;
-    color: #008bf0;
+  height: 300px;
+  width: 100%;
+  border: solid 2px #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #008bf0;
 }
+
 #consulta:hover {
-    background-color: #fcf7ef;
+  background-color: #fcf7ef;
 }
-
-
 
 input {
-    margin: 5px;
-    padding: 10px 20px 10px 20px;
-    border: solid 2px #008bf0;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    color: #008bf0;
+  margin: 5px;
+  padding: 10px 20px 10px 20px;
+  border: solid 2px #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #008bf0;
 }
 
 .botoneraForm:hover {
-    background-color: #008bf0;
-    color: #fcf7ef;
-}
-
- {
-    background-color: #008bf0;
-    color: #fcf7ef;
+  background-color: #008bf0;
+  color: #fcf7ef;
 }
 
 fieldset {
-    border: none;
-
+  border: none;
 }
 
 textarea {
-    margin: 5px;
-    padding: 10px 20px 10px 20px;
-    border: solid 2px #008bf0;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    color: #808080;
+  margin: 5px;
+  padding: 10px 20px 10px 20px;
+  border: solid 2px #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #808080;
 }
 
 /* desktop*/
-
 @media only screen and (min-width: 1025px) {
-   
-    #secContacto {
- 
-        margin-left: 4%;
-        margin-right: 4%;
-        display: grid;
-        grid-template-areas:
-    
-    
-            "formulario datos"
-            "formulario mapa"
-        ;
-        grid-template-columns: 1fr 1fr;
-    
-        grid-template-rows: 245px 300px;
-        height: 600px;
-    }
-
-    .hamburguesa {
-       
-    }
-
+  #secContacto {
+    margin-left: 4%;
+    margin-right: 4%;
+    display: grid;
+    grid-template-areas: "formulario datos" "formulario mapa";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 245px 300px;
+    height: 600px;
   }
-  
-  /*tablet*/
-  @media only screen and (min-width: 401px) and (max-width: 1024px) {
-
-    nav {
-        display: none;
-    }
-
-    #secContacto {
- 
-        margin-left: 4%;
-        margin-right: 4%;
-        display: grid;
-
-        grid-template-areas:
-    
-    
-            "formulario" 
-            "datos"
-            "mapa"
-        ;
-        grid-template-columns: 1fr;
-     
-        grid-template-rows: 600px 245px 300px;
-        height: 1200px;
-    }
-
-    .datos {
-       
-        grid-area: datos;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        
-    
-    }
-
-    .mapa {
-        grid-area: mapa;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    iframe {
-    
-        margin-left: 5px;
-        padding-bottom: 35px;
-        width: 100%;
-        height: 280px;
-    
-    }
-
-    .telContacto {
-        text-align: center;
-        list-style: none;
-        padding: 5px 25px;
-    
-    }
-    
-    .horaContacto {
-        list-style: none;
-        padding-left: 25px;
-        text-align: center;
-    }
-    
-    .mailContacto {
-       
-        padding-left:  25px;
-        text-align: center;
-      
-    }
-    
-    .direccionContacto {
-        list-style: none;
-       padding-left: 25px;
-        text-align: center;
-      
-    }
-    .titularConocenos {
-
-        margin-bottom: 20%;
-        letter-spacing: 8px;
-        opacity: 75%;
-        font-size: 2.5em;
-    }
-    .logocontainer img {
-        width: 75%;
-    
-    }
-    
-    .headbar {
-        height: 75px;
-    
-    }
-    #home {
-
-    
-        width: 100%;
-        background-color: white;
-        display: grid;
-       
-    
-        margin-left:1%;
-        margin-right: 8%;
-        grid-template-areas:
-    
-    
-            "cardodgral"    
-            "cardortodoncia"       
-            "cardimplantes"
-            "botonRectangular"
-        ;
-        grid-template-columns: 96%;
-    
-        grid-template-rows: 450px 450px 450px 150px;
-        height: 1420px;
-    
-    }
-    h1 {
-        padding-top: 100px;
-        font-size: 5ex;
-        letter-spacing: 3px;
-        line-height: 2.5ex;
-        
-        width: 50%;
-    
-    }
-    .bajada {
-        padding-top: 18px;
-        padding-bottom: 10px;
-        margin-bottom: 25px;
-        font-size: 14pt;
-        line-height: 20pt;
-     
-       
-        width: 96%;
-    
-    
-    }
-    .titulares {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 100px;
-        margin-left: 0;
-        
-    }
+}
+/*tablet*/
+@media only screen and (min-width: 401px) and (max-width: 1024px) {
+  nav {
+    display: none;
   }
-  /* mobile*/
+  #secContacto {
+    margin-left: 4%;
+    margin-right: 4%;
+    display: grid;
+    grid-template-areas: "formulario" "datos" "mapa";
+    grid-template-columns: 1fr;
+    grid-template-rows: 600px 245px 300px;
+    height: 1200px;
+  }
+  .datos {
+    grid-area: datos;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .mapa {
+    grid-area: mapa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  iframe {
+    margin-left: 5px;
+    padding-bottom: 35px;
+    width: 100%;
+    height: 280px;
+  }
+  .telContacto {
+    text-align: center;
+    list-style: none;
+    padding: 5px 25px;
+  }
+  .horaContacto {
+    list-style: none;
+    padding-left: 25px;
+    text-align: center;
+  }
+  .mailContacto {
+    padding-left: 25px;
+    text-align: center;
+  }
+  .direccionContacto {
+    list-style: none;
+    padding-left: 25px;
+    text-align: center;
+  }
+  .titularConocenos {
+    margin-bottom: 20%;
+    letter-spacing: 8px;
+    opacity: 75%;
+    font-size: 2.5em;
+  }
+  .logocontainer img {
+    width: 75%;
+  }
+  .headbar {
+    height: 75px;
+  }
+  #home {
+    width: 100%;
+    background-color: white;
+    display: grid;
+    margin-left: 1%;
+    margin-right: 8%;
+    grid-template-areas: "cardodgral" "cardortodoncia" "cardimplantes" "botonRectangular";
+    grid-template-columns: 96%;
+    grid-template-rows: 450px 450px 450px 150px;
+    height: 1420px;
+  }
+  h1 {
+    padding-top: 100px;
+    font-size: 5ex;
+    letter-spacing: 3px;
+    line-height: 2.5ex;
+    width: 50%;
+  }
+  .bajada {
+    padding-top: 18px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    font-size: 14pt;
+    line-height: 20pt;
+    width: 96%;
+  }
+  .titulares {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 0;
+  }
+}
+/* mobile*/
 @media only screen and (max-width: 400px) {
-   
-    #secContacto {
- 
-        margin-left: 2%;
-        margin-right: 2%;
-        display: grid;
-
-        grid-template-areas:
-             "formulario" 
-            "datos"
-            "mapa"
-        ;
-        grid-template-columns: 90%;
-     
-        grid-template-rows: 560px 245px 300px;
-        height: 1140px;
-    }
-   nav{
-        display: none;
-    }
-    .titularConocenos {
-
-        margin-bottom: 20%;
-        font-size: 2em;
-    }
-  
+  #secContacto {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: grid;
+    grid-template-areas: "formulario" "datos" "mapa";
+    grid-template-columns: 90%;
+    grid-template-rows: 560px 245px 300px;
+    height: 1140px;
+  }
+  nav {
+    display: none;
+  }
+  .titularConocenos {
+    margin-bottom: 20%;
+    font-size: 2em;
+  }
   .formulario {
     margin-top: 0;
     align-items: center;
     justify-content: center;
-   
-   }
-   .datos {
+  }
+  .datos {
     margin-top: 25px;
-     margin-left: 0;
+    margin-left: 0;
   }
   .contactoDatos {
-
-text-align: center;
-    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
     font-weight: 400;
     color: #808080;
     line-height: 1lh;
     font-size: 1rem;
     letter-spacing: normal;
-
-}
-
-iframe {
+  }
+  iframe {
     display: flex;
     justify-content: center;
     margin-left: 0;
     padding-bottom: 0;
     width: 100%;
     height: 280px;
-
-}
-
-footer {
-
+  }
+  footer {
     width: 100%;
     height: 290px;
     display: flex;
@@ -1112,93 +912,69 @@ footer {
     align-items: center;
     padding-top: 45px;
     padding-bottom: 45px;
-}
-.legales {
+  }
+  .legales {
     padding-right: 0;
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 10pt;
     color: #fcf7ef;
     text-align: center;
-}
-input {
+  }
+  input {
     margin: 5px;
     padding: 10px 20px 10px 20px;
     border: solid 2px #008bf0;
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-weight: 400;
     color: #008bf0;
-}
-
-form {
+  }
+  form {
     margin-top: 0;
     width: 100%;
-}
-.logocontainer img {
+  }
+  .logocontainer img {
     width: 60%;
-
-}
-
-.headbar {
+  }
+  .headbar {
     height: 65px;
-
-}
-
-h1 {
+  }
+  h1 {
     padding-top: 260px;
     font-size: 5ex;
-   text-align: center;
+    text-align: center;
     letter-spacing: 3px;
     line-height: 2.5ex;
-    
     width: 98%;
-
-}
-.bajada {
+  }
+  .bajada {
     padding-top: 18px;
     padding-bottom: 10px;
     margin-bottom: 25px;
     font-size: 14pt;
     line-height: 20pt;
-  text-align: center;
-   
+    text-align: center;
     width: 96%;
-
-
-}
-.titulares {
+  }
+  .titulares {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
     margin-left: 0;
-    
-}
-#home {
-
-    
+  }
+  #home {
     width: 100%;
     background-color: white;
     display: grid;
-   
-
-    margin-left:1%;
+    margin-left: 1%;
     margin-right: 1%;
-    grid-template-areas:
-
-
-        "cardodgral"    
-        "cardortodoncia"       
-        "cardimplantes"
-        "botonRectangular"
-    ;
+    grid-template-areas: "cardodgral" "cardortodoncia" "cardimplantes" "botonRectangular";
     grid-template-columns: 96%;
-
     grid-template-rows: 480px 480px 480px 250px;
     height: 1600px;
-
-}
-.cardodgral {
+  }
+  .cardodgral {
     grid-area: cardodgral;
     position: relative;
     top: 0%;
@@ -1207,15 +983,11 @@ h1 {
     height: 450px;
     margin-top: 30px;
     margin-bottom: 30px;
-    justify-self :start;
+    justify-self: start;
     margin-left: 2%;
     margin-right: 2%;
-
-
-
-}
-
-.cardortodoncia {
+  }
+  .cardortodoncia {
     grid-area: cardortodoncia;
     position: relative;
     top: 0%;
@@ -1224,16 +996,11 @@ h1 {
     height: 450px;
     margin-top: 30px;
     margin-bottom: 30px;
-    justify-self :start;
+    justify-self: start;
     margin-left: 2%;
     margin-right: 2%;
-
-
-}
-
-
-
-.cardimplantes {
+  }
+  .cardimplantes {
     grid-area: cardimplantes;
     position: relative;
     top: 0%;
@@ -1245,22 +1012,16 @@ h1 {
     justify-self: start;
     margin-left: 2%;
     margin-right: 2%;
-
-}
-.tituloContenedor {
-    
-    
-    background-color:#81b8df;
+  }
+  .tituloContenedor {
+    background-color: #81b8df;
     background-image: url(imagescss/holme.jpeg);
     background-size: 160%;
     background-position: center -15%;
-     width: 100%;
+    width: 100%;
     height: 1600px;
-
-
-}
-
-.botonRectangular {
+  }
+  .botonRectangular {
     grid-area: botonRectangular;
     margin-bottom: 45px;
     margin-top: 45px;
@@ -1269,27 +1030,20 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-self: center;
-    justify-content: center;;
+    justify-content: center;
     align-items: center;
     font-size: 15px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-weight: 500;
     border: 2px solid #008bf0;
-
-
-}
-
-main div h2 {
+  }
+  main div h2 {
     padding-left: 15px;
     padding-right: 15px;
-}
-
-main div p {
-
-   
+  }
+  main div p {
     padding-left: 15px;
-
-
+  }
 }
 
-}
+/*# sourceMappingURL=styles.css.map */

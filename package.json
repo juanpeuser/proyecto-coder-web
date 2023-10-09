@@ -1,0 +1,11 @@
+{
+  "name": "mi_repositorio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "clear"
+  },
+  "author": "",
+  "license": "ISC"
+}
