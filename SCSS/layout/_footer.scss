@@ -1,0 +1,50 @@
+footer {
+
+    width: 100%;
+    height: 180px;
+
+    background-color: $colorBlue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: 45px;
+
+    .horarios {
+        font-size: 12pt;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 300;
+    
+        color: #fcf7ef;
+        margin-left: 4%;
+        padding-left: 15px;
+    
+    }
+    .contacto {
+        display: block;
+    }
+    
+    .tel {
+        list-style-image: url(imagescss/tel.png);
+    }
+    
+    .rel {
+        list-style-image: url(imagescss/rel.png);
+    }
+    
+    .mail {
+        list-style-image: url(imagescss/mail.png);
+    }
+    
+    ol li {
+    
+        padding: 5px;
+    }
+    
+    .legales {
+        padding-right: 4%;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 14pt;
+        color: #fcf7ef;
+    }
+}

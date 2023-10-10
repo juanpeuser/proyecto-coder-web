@@ -1,0 +1,69 @@
+#secNosotros {
+
+    background-color: #fcf7ef;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+
+
+    }
+    
+
+.titularConocenos {
+
+
+    letter-spacing: 8px;
+    opacity: 75%;
+}
+
+.dra1 {
+    background-image: url(imagescss/odontologa1.png);
+
+    height: 355px;
+    width: 220px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 8%;
+}
+
+.cv1 {
+    padding-top: 30px;
+    width: 350px;
+    height: 300px;
+}
+
+.cv2 {
+    padding-top: 30px;
+    width: 350px;
+    height: 300px;
+    
+}
+
+.dra2 {
+    background-image: url(imagescss/odontologa1.png);
+
+    background-repeat: no-repeat;
+    height: 355px;
+    width: 220px;
+    background-size: 100%;
+    margin-left: 4%;
+}
+
+.introseccion {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: $colorBlue;
+    font-size: 2rem;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.dras {
+    margin-left: 25px;
+    font-family: 'DM Sans', sans-serif;
+    color: #000000;
+}

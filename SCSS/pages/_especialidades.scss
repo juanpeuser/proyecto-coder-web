@@ -1,0 +1,85 @@
+#secEspecialidades {
+    margin: auto;
+    width: 70%;
+    height: 1200px;
+    margin-bottom: 260px;
+    margin-top: 60px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    align-items: flex-start;
+
+
+}
+
+.esp1 {
+    background-image: url(../images/odontogeneral.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 225px;
+
+    margin: 20px;
+}
+
+.esp2 {
+    background-image: url(../images/ortodoncia2.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 225px;
+
+    margin: 20px;
+}
+
+.esp3 {
+    background-image: url(../images/implante_dental.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 225px;
+
+    margin: 20px;
+}
+
+.esp4 {
+    background-image: url(../images/endodoncia.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 225px;
+
+    margin: 20px;
+}
+
+.esp5 {
+    background-image: url(../images/ortodoncia.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 340px;
+    height: 225px;
+
+    margin: 20px;
+}
+
+.artEspecialidades {
+    margin-top: 20px;
+    width: 800px;
+    height: auto;
+}
+.parrafoArticulos {
+    margin-bottom: 35px;
+}
+
+.parrafoEspecilaidades {
+    margin-bottom: 15px;
+}

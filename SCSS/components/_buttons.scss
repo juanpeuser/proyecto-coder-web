@@ -1,0 +1,48 @@
+.botones {
+
+    color: #fcf7ef;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 35px;
+}
+.botonArticle {
+
+    border: $border2px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    color: #fcf7ef;
+    background-color: $colorBlue;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    margin: 100px 20px 20px 25px;
+
+}
+.botonTratamientos {
+    border: $border1px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: #000000;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    margin-left: 25px;
+
+}
+.botonRectangular {
+    grid-area: botonRectangular;
+    margin-bottom: 45px;
+    margin-top: 45px;
+    height: 55px;
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: center;
+    ;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    border: $border2px;
+
+
+}

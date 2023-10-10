@@ -1,8 +1,24 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+nav {
+  font-size: 16pt;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  margin-right: 4%;
+}
+nav li {
+  padding: 10px;
+}
+
+.navNativa {
+  font-size: 16pt;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  margin-right: 4%;
 }
 
 .botones {
@@ -12,7 +28,48 @@
   margin-top: 35px;
 }
 
-.headbar {
+.botonArticle {
+  border: 2px solid #008bf0;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  color: #fcf7ef;
+  background-color: #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  margin: 100px 20px 20px 25px;
+}
+
+.botonTratamientos {
+  border: 1px solid #008bf0;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  color: #000000;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  margin-left: 25px;
+}
+
+.botonRectangular {
+  grid-area: botonRectangular;
+  margin-bottom: 45px;
+  margin-top: 45px;
+  height: 55px;
+  width: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  border: 2px solid #008bf0;
+}
+
+header {
+  width: 100%;
+}
+header .headbar {
   height: 85px;
   width: 100%;
   position: fixed;
@@ -25,34 +82,82 @@
   align-items: baseline;
   z-index: 2;
 }
-
-nav {
-  font-size: 16pt;
+header .botonheader1 {
+  border: 2px solid #008bf0;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fcf7ef;
+  background-color: #008bf0;
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
-  margin-right: 4%;
+}
+header .secContactoHead {
+  background-color: #008bf0;
+  background-image: url(imagescss/contacto_img.png);
+  background-size: 2000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: fixed;
+  width: 100%;
+  max-height: 700px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .secEspeciliadidadesHeader {
+  background-color: #008bf0;
+  background-image: url(./imagescss/portadillaEspecialidades.png);
+  background-size: 2000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: fixed;
+  width: 100%;
+  max-height: 700px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcf7ef;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
 }
 
-.navNativa {
-  font-size: 16pt;
+.secNosotros {
+  background-color: #008bf0;
+  background-image: url(./imagescss/img_nosotros.png);
+  background-size: 2000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-x: fixed;
+  width: 100%;
+  max-height: 700px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h5 {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
-  margin-right: 4%;
-}
-
-nav li {
-  padding: 10px;
+  font-size: 1.5rem;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  color: #008bf0;
 }
 
 a {
   text-decoration: none;
   color: #008bf0;
 }
-
 a:hover {
   opacity: 70%;
 }
-
 a:active {
   color: #ffa650;
 }
@@ -66,48 +171,6 @@ ul li {
   margin-top: 15px;
 }
 
-.tituloContenedor {
-  background-color: #81b8df;
-  background-image: url(imagescss/holme.jpeg);
-  background-size: 120%;
-  background-position: top;
-  background-repeat: no-repeat;
-  width: 100%;
-  max-height: 700px;
-  height: 700px;
-  display: flex;
-  align-items: center;
-}
-
-.titulares {
-  margin-top: 100px;
-  margin-left: 4%;
-}
-
-h1 {
-  font-size: 8ex;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 500;
-  color: white;
-  letter-spacing: 3px;
-  line-height: 2.5ex;
-  text-shadow: rgb(0, 0, 0) 1px 0 7px;
-  width: 55%;
-}
-
-.bajada {
-  padding-top: 18px;
-  padding-bottom: 10px;
-  margin-bottom: 25px;
-  font-size: 16pt;
-  line-height: 24pt;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 400;
-  color: white;
-  width: 40%;
-  text-shadow: rgb(0, 0, 0) 1px 0 5px;
-}
-
 footer {
   width: 100%;
   height: 180px;
@@ -118,8 +181,7 @@ footer {
   align-items: end;
   padding-bottom: 45px;
 }
-
-.horarios {
+footer .horarios {
   font-size: 12pt;
   font-family: "DM Sans", sans-serif;
   font-weight: 300;
@@ -127,35 +189,133 @@ footer {
   margin-left: 4%;
   padding-left: 15px;
 }
-
-.contacto {
+footer .contacto {
   display: block;
 }
-
-.tel {
+footer .tel {
   list-style-image: url(imagescss/tel.png);
 }
-
-.rel {
+footer .rel {
   list-style-image: url(imagescss/rel.png);
 }
-
-.mail {
+footer .mail {
   list-style-image: url(imagescss/mail.png);
 }
-
-ol li {
+footer ol li {
   padding: 5px;
 }
-
-.legales {
+footer .legales {
   padding-right: 4%;
   font-family: "DM Sans", sans-serif;
   font-size: 14pt;
   color: #fcf7ef;
 }
 
-/* Principal */
+.formulario {
+  margin-top: 35px;
+  grid-area: formulario;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+}
+
+.datos {
+  margin-top: 35px;
+  grid-area: datos;
+  display: flex;
+  flex-direction: row;
+  margin-left: 45px;
+  align-items: flex-start;
+}
+
+#nombre {
+  min-width: 100%;
+  font-size: 1.3rem;
+  height: 40px;
+  margin: 5px;
+  border: 2px solid #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #008bf0;
+}
+
+#nombre:hover {
+  background-color: #fcf7ef;
+}
+
+#telefono {
+  min-width: 100%;
+  font-size: 1.3rem;
+  height: 40px;
+  margin: 5px;
+  border: 2px solid #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #008bf0;
+}
+
+#telefono:hover {
+  background-color: #fcf7ef;
+}
+
+#email {
+  min-width: 100%;
+  font-size: 1.3rem;
+  height: 40px;
+  margin: 5px;
+  border: 2px solid #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #008bf0;
+}
+#email:hover {
+  background-color: #fcf7ef;
+}
+
+#consulta {
+  height: 300px;
+  width: 100%;
+  border: 2px solid #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #008bf0;
+}
+#consulta:hover {
+  background-color: #fcf7ef;
+}
+
+input {
+  margin: 5px;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #008bf0;
+}
+
+.botoneraForm:hover {
+  background-color: #008bf0;
+  color: #fcf7ef;
+}
+
+fieldset {
+  border: none;
+}
+
+textarea {
+  margin: 5px;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid #008bf0;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #808080;
+}
+
 #home {
   width: 100%;
   background-color: white;
@@ -167,20 +327,7 @@ ol li {
   grid-template-rows: 450px 150px;
   height: 600px;
 }
-
-/*  {
-    position: relative;
-    top: -10%;
-    width: 25%;
-    height: 450px;;
-
-    background-color: white;
-    border: 3px solid #008bf0;
-    border-radius: 10%;
-   box-shadow: rgb(192, 192, 192) 3px 0 10px;
-
-} No aplica para nada*/
-main div h2 {
+#home h2 {
   font-family: "DM Sans", sans-serif;
   font-size: 200%;
   font-weight: 400;
@@ -189,8 +336,7 @@ main div h2 {
   padding-left: 25px;
   padding-right: 25px;
 }
-
-main div p {
+#home p {
   font-family: "DM Sans", sans-serif;
   font-size: 100%;
   font-weight: 400;
@@ -280,18 +426,6 @@ main div p {
   background-color: #008bf0;
 }
 
-.botonheader1 {
-  border: 2px solid #008bf0;
-  padding: 10px 20px 10px 20px;
-  border-radius: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #fcf7ef;
-  background-color: #008bf0;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 500;
-}
-
 .botonRectangular {
   grid-area: botonRectangular;
   margin-bottom: 45px;
@@ -317,20 +451,54 @@ main div p {
   margin-left: 15px;
 }
 
-/* Sección nosotros */
-.secNosotros {
-  background-color: #008bf0;
-  background-image: url(./imagescss/img_nosotros.png);
-  background-size: 2000px;
-  background-position: center;
+.tituloContenedor {
+  background-color: #81b8df;
+  background-image: url(imagescss/holme.jpeg);
+  background-size: 120%;
+  background-position: top;
   background-repeat: no-repeat;
-  background-position-x: fixed;
   width: 100%;
   max-height: 700px;
-  height: 420px;
+  height: 700px;
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+.titulares {
+  margin-top: 100px;
+  margin-left: 4%;
+}
+
+h1 {
+  font-size: 8ex;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 3px;
+  line-height: 2.5ex;
+  text-shadow: rgb(0, 0, 0) 1px 0 7px;
+  width: 55%;
+}
+
+.bajada {
+  padding-top: 18px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  font-size: 16pt;
+  line-height: 24pt;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: white;
+  width: 40%;
+  text-shadow: rgb(0, 0, 0) 1px 0 5px;
+}
+
+#secNosotros {
+  background-color: #fcf7ef;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
 }
 
 .titularConocenos {
@@ -354,10 +522,9 @@ main div p {
 }
 
 .cv2 {
-  padding-left: 20px;
+  padding-top: 30px;
   width: 350px;
   height: 300px;
-  margin-right: 8%;
 }
 
 .dra2 {
@@ -381,24 +548,12 @@ main div p {
   margin-bottom: 50px;
 }
 
-#secNosotros {
-  background-color: #fcf7ef;
-  padding-top: 25px;
-  display: flex;
-  flex-direction: row;
-  flex-flow: wrap;
-}
-
-h5 {
+.dras {
+  margin-left: 25px;
   font-family: "DM Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1.5rem;
-  padding-left: 25px;
-  padding-bottom: 10px;
-  color: #008bf0;
+  color: #000000;
 }
 
-/*ESPECIALIDADES*/
 #secEspecialidades {
   margin: auto;
   width: 70%;
@@ -470,37 +625,6 @@ article {
   height: auto;
 }
 
-.botonArticle {
-  border: 2px solid #008bf0;
-  padding: 10px 20px 10px 20px;
-  border-radius: 20px;
-  color: #fcf7ef;
-  background-color: #008bf0;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 500;
-  margin: 100px 20px 20px 25px;
-}
-
-.secEspeciliadidadesHeader {
-  background-color: #008bf0;
-  background-image: url(./imagescss/portadillaEspecialidades.png);
-  background-size: 2000px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-position-x: fixed;
-  width: 100%;
-  max-height: 700px;
-  height: 420px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fcf7ef;
-  padding-top: 25px;
-  display: flex;
-  flex-direction: row;
-  flex-flow: wrap;
-}
-
 .parrafoArticulos {
   margin-bottom: 35px;
 }
@@ -546,32 +670,6 @@ h6 {
   justify-content: center;
 }
 
-.botonTratamientos {
-  border: 1px solid #008bf0;
-  padding: 5px 10px 5px 10px;
-  border-radius: 5px;
-  color: #000000;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 500;
-  margin-left: 25px;
-}
-
-/*----Contacto----*/
-.secContactoHead {
-  background-color: #008bf0;
-  background-image: url(imagescss/contacto_img.png);
-  background-size: 2000px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-position-x: fixed;
-  width: 100%;
-  max-height: 700px;
-  height: 420px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 #secContacto {
   margin-left: 4%;
   margin-right: 4%;
@@ -580,27 +678,6 @@ h6 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 245px 300px;
   height: 600px;
-}
-
-.formulario {
-  margin-top: 35px;
-  grid-area: formulario;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-form {
-  width: 100%;
-}
-
-.datos {
-  margin-top: 35px;
-  grid-area: datos;
-  display: flex;
-  flex-direction: row;
-  margin-left: 45px;
-  align-items: flex-start;
 }
 
 .mapa {
@@ -660,390 +737,6 @@ iframe {
   background-position: left center;
   background-size: 18px;
   background-image: url(imagescss/globito.svg);
-}
-
-#nombre {
-  min-width: 100%;
-  font-size: 1.3rem;
-  height: 40px;
-  margin: 5px;
-  border: solid 2px #008bf0;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 400;
-  color: #008bf0;
-}
-
-#nombre:hover {
-  background-color: #fcf7ef;
-}
-
-#telefono {
-  min-width: 100%;
-  font-size: 1.3rem;
-  height: 40px;
-  margin: 5px;
-  border: solid 2px #008bf0;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 400;
-  color: #008bf0;
-}
-
-#telefono:hover {
-  background-color: #fcf7ef;
-}
-
-#email {
-  min-width: 100%;
-  font-size: 1.3rem;
-  height: 40px;
-  margin: 5px;
-  border: solid 2px #008bf0;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 400;
-  color: #008bf0;
-}
-
-#email:hover {
-  background-color: #fcf7ef;
-}
-
-#consulta {
-  height: 300px;
-  width: 100%;
-  border: solid 2px #008bf0;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1.3rem;
-  color: #008bf0;
-}
-
-#consulta:hover {
-  background-color: #fcf7ef;
-}
-
-input {
-  margin: 5px;
-  padding: 10px 20px 10px 20px;
-  border: solid 2px #008bf0;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 400;
-  color: #008bf0;
-}
-
-.botoneraForm:hover {
-  background-color: #008bf0;
-  color: #fcf7ef;
-}
-
-fieldset {
-  border: none;
-}
-
-textarea {
-  margin: 5px;
-  padding: 10px 20px 10px 20px;
-  border: solid 2px #008bf0;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 400;
-  color: #808080;
-}
-
-/* desktop*/
-@media only screen and (min-width: 1025px) {
-  #secContacto {
-    margin-left: 4%;
-    margin-right: 4%;
-    display: grid;
-    grid-template-areas: "formulario datos" "formulario mapa";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 245px 300px;
-    height: 600px;
-  }
-}
-/*tablet*/
-@media only screen and (min-width: 401px) and (max-width: 1024px) {
-  nav {
-    display: none;
-  }
-  #secContacto {
-    margin-left: 4%;
-    margin-right: 4%;
-    display: grid;
-    grid-template-areas: "formulario" "datos" "mapa";
-    grid-template-columns: 1fr;
-    grid-template-rows: 600px 245px 300px;
-    height: 1200px;
-  }
-  .datos {
-    grid-area: datos;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .mapa {
-    grid-area: mapa;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  iframe {
-    margin-left: 5px;
-    padding-bottom: 35px;
-    width: 100%;
-    height: 280px;
-  }
-  .telContacto {
-    text-align: center;
-    list-style: none;
-    padding: 5px 25px;
-  }
-  .horaContacto {
-    list-style: none;
-    padding-left: 25px;
-    text-align: center;
-  }
-  .mailContacto {
-    padding-left: 25px;
-    text-align: center;
-  }
-  .direccionContacto {
-    list-style: none;
-    padding-left: 25px;
-    text-align: center;
-  }
-  .titularConocenos {
-    margin-bottom: 20%;
-    letter-spacing: 8px;
-    opacity: 75%;
-    font-size: 2.5em;
-  }
-  .logocontainer img {
-    width: 75%;
-  }
-  .headbar {
-    height: 75px;
-  }
-  #home {
-    width: 100%;
-    background-color: white;
-    display: grid;
-    margin-left: 1%;
-    margin-right: 8%;
-    grid-template-areas: "cardodgral" "cardortodoncia" "cardimplantes" "botonRectangular";
-    grid-template-columns: 96%;
-    grid-template-rows: 450px 450px 450px 150px;
-    height: 1420px;
-  }
-  h1 {
-    padding-top: 100px;
-    font-size: 5ex;
-    letter-spacing: 3px;
-    line-height: 2.5ex;
-    width: 50%;
-  }
-  .bajada {
-    padding-top: 18px;
-    padding-bottom: 10px;
-    margin-bottom: 25px;
-    font-size: 14pt;
-    line-height: 20pt;
-    width: 96%;
-  }
-  .titulares {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    margin-left: 0;
-  }
-}
-/* mobile*/
-@media only screen and (max-width: 400px) {
-  #secContacto {
-    margin-left: 2%;
-    margin-right: 2%;
-    display: grid;
-    grid-template-areas: "formulario" "datos" "mapa";
-    grid-template-columns: 90%;
-    grid-template-rows: 560px 245px 300px;
-    height: 1140px;
-  }
-  nav {
-    display: none;
-  }
-  .titularConocenos {
-    margin-bottom: 20%;
-    font-size: 2em;
-  }
-  .formulario {
-    margin-top: 0;
-    align-items: center;
-    justify-content: center;
-  }
-  .datos {
-    margin-top: 25px;
-    margin-left: 0;
-  }
-  .contactoDatos {
-    text-align: center;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    color: #808080;
-    line-height: 1lh;
-    font-size: 1rem;
-    letter-spacing: normal;
-  }
-  iframe {
-    display: flex;
-    justify-content: center;
-    margin-left: 0;
-    padding-bottom: 0;
-    width: 100%;
-    height: 280px;
-  }
-  footer {
-    width: 100%;
-    height: 290px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 45px;
-    padding-bottom: 45px;
-  }
-  .legales {
-    padding-right: 0;
-    font-family: "DM Sans", sans-serif;
-    font-size: 10pt;
-    color: #fcf7ef;
-    text-align: center;
-  }
-  input {
-    margin: 5px;
-    padding: 10px 20px 10px 20px;
-    border: solid 2px #008bf0;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    color: #008bf0;
-  }
-  form {
-    margin-top: 0;
-    width: 100%;
-  }
-  .logocontainer img {
-    width: 60%;
-  }
-  .headbar {
-    height: 65px;
-  }
-  h1 {
-    padding-top: 260px;
-    font-size: 5ex;
-    text-align: center;
-    letter-spacing: 3px;
-    line-height: 2.5ex;
-    width: 98%;
-  }
-  .bajada {
-    padding-top: 18px;
-    padding-bottom: 10px;
-    margin-bottom: 25px;
-    font-size: 14pt;
-    line-height: 20pt;
-    text-align: center;
-    width: 96%;
-  }
-  .titulares {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    margin-left: 0;
-  }
-  #home {
-    width: 100%;
-    background-color: white;
-    display: grid;
-    margin-left: 1%;
-    margin-right: 1%;
-    grid-template-areas: "cardodgral" "cardortodoncia" "cardimplantes" "botonRectangular";
-    grid-template-columns: 96%;
-    grid-template-rows: 480px 480px 480px 250px;
-    height: 1600px;
-  }
-  .cardodgral {
-    grid-area: cardodgral;
-    position: relative;
-    top: 0%;
-    max-width: 200px;
-    min-width: none;
-    height: 450px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    justify-self: start;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-  .cardortodoncia {
-    grid-area: cardortodoncia;
-    position: relative;
-    top: 0%;
-    max-width: 200px;
-    min-width: none;
-    height: 450px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    justify-self: start;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-  .cardimplantes {
-    grid-area: cardimplantes;
-    position: relative;
-    top: 0%;
-    max-width: 200px;
-    min-width: none;
-    height: 450px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    justify-self: start;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-  .tituloContenedor {
-    background-color: #81b8df;
-    background-image: url(imagescss/holme.jpeg);
-    background-size: 160%;
-    background-position: center -15%;
-    width: 100%;
-    height: 1600px;
-  }
-  .botonRectangular {
-    grid-area: botonRectangular;
-    margin-bottom: 45px;
-    margin-top: 45px;
-    height: 55px;
-    width: 320px;
-    display: flex;
-    flex-direction: row;
-    justify-self: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    border: 2px solid #008bf0;
-  }
-  main div h2 {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  main div p {
-    padding-left: 15px;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */

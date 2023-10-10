@@ -1,0 +1,118 @@
+header {
+    width: 100%;
+
+    .headbar {
+        height: 85px;
+        width: 100%;
+        position: fixed;
+        top: 0%;
+        background-color: #fcf7ef;
+        border-bottom: 3px solid #008bf0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        z-index: 2;
+    
+    }
+
+    .botonheader1 {
+
+        border: 2px solid #008bf0;
+        padding: 10px 20px 10px 20px;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #fcf7ef;
+        background-color: #008bf0;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 500;
+    
+    }
+    .secContactoHead {
+
+        background-color: #008bf0;
+        background-image: url(imagescss/contacto_img.png);
+        background-size: 2000px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position-x: fixed;
+        width: 100%;
+        max-height: 700px;
+        height: 420px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .secEspeciliadidadesHeader {
+        background-color: #008bf0;
+        background-image: url(./imagescss/portadillaEspecialidades.png);
+        background-size: 2000px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position-x: fixed;
+        width: 100%;
+        max-height: 700px;
+        height: 420px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fcf7ef;
+        padding-top: 25px;
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+    
+}
+
+.secNosotros {
+
+    background-color: $colorBlue;
+    background-image: url(./imagescss/img_nosotros.png);
+    background-size: 2000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: fixed;
+    width: 100%;
+    max-height: 700px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h5 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    color: $colorBlue;
+
+}
+
+a {
+    text-decoration: none;
+    color: $colorBlue;
+    
+    &:hover {
+        opacity: 70%;
+    }
+    &:active {
+        color: #ffa650;
+    }
+}
+
+
+ul li {
+    display: inline-block;
+}
+
+.logocontainer {
+    margin-left: 4%;
+    margin-top: 15px;
+
+}
