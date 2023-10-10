@@ -69,6 +69,7 @@
     box-shadow: -2px 0px 22px -1px rgba(102, 101, 102, 0.68);
 
     background-image: url(../images/img_home.jpeg);
+    background-position-x: fixed;
     background-position: center -15%;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -176,22 +177,21 @@
 
 .tituloContenedor {
 
-    background-color: $colorBlue;
+    background-color: #81b8df;
     background-image: url(imagescss/holme.jpeg);
     background-size: 120%;
-    background-position: center;
+    background-position: fixed;
     background-repeat: no-repeat;
     width: 100%;
     max-height: 700px;
     height: 700px;
     display: flex;
     align-items: center;
-    align-items: flex-start
+
 
 }
 
-.titulares {
-    margin-top: 100px;
+.titulareshome {
     margin-left: 4%;
 
 }
@@ -223,7 +223,7 @@ h1 {
 
 // TABLET
 
-@media only screen and (min-width: 870px) and (max-width: 1024px) {
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
 
 #home {
 
@@ -244,19 +244,17 @@ h1 {
         "botonRectangular"
     ;
     grid-template-columns: 96%;
-
     grid-template-rows: 480px 480px 480px 130px;
     height: 1600px;
 
 }
 
 h1 {
-    padding-top: 100px;
+ 
     font-size: 5ex;
     letter-spacing: 3px;
     line-height: 2.5ex;
-
-    width: 50%;
+     width: 50%;
 
 }
 
@@ -271,27 +269,44 @@ h1 {
 
 }
 
-.titulares {
+.titulareshome {
     padding-left: 8%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin-top: 100px;
+    justify-content: start;
+    align-items:start;
+    margin-top: 0px;
     margin-left: 0;
 
 }
+
+
+.botonesPrincipal {
+    display: flex;
+    align-items: start;
+}
+
 }
 
 // MOBILE
 
-@media only screen and (max-width: 869px) {
+@media only screen and (max-width: 600px) {
     .logocontainer img {
         width: 60%;
 
     }
+    .titulareshome {
+        padding-left: 8%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items:center;
+        margin-top: 0px;
+        margin-left: 0;
+    
+    }
 
-    h1 {
+    .h1home {
         padding-top: 260px;
         font-size: 5ex;
         text-align: center;
@@ -315,15 +330,7 @@ h1 {
 
     }
 
-    .titulares {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        margin-top: 100px;
-        margin-left: 0;
 
-    }
 
     #home {
 
@@ -349,6 +356,7 @@ h1 {
         height: 1600px;
 
     }
+
 
     .cardodgral {
         grid-area: cardodgral;
@@ -403,10 +411,34 @@ h1 {
         background-color: #81b8df;
         background-image: url(imagescss/holme.jpeg);
         background-size: 160%;
-        background-position: center -15%;
+        background-position: top;
         width: 100%;
-        height: 1600px;
+        height: 2000px;
 
 
+    }
+
+    .botonRectangular {
+        grid-area: botonRectangular;
+        margin-bottom: 45px;
+        height: 55px;
+        width: 370px;
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        justify-content: center;
+        ;
+        align-items: center;
+        font-size: 20px;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 500;
+    
+        border: $border2px;
+    
+    }
+    .botonesPrincipal {
+        display: flex;
+        align-items: start;
+        justify-content: center;
     }
 }

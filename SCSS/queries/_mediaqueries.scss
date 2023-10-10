@@ -21,8 +21,9 @@
 
 }
 
-/*tablet*/
-@media only screen and (min-width: 870px) and (max-width: 1024px) {
+/********    TABLET    *******/
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
 
     nav {
         display: none;
@@ -101,13 +102,7 @@
 
     }
 
-    .titularConocenos {
-
-        margin-bottom: 20%;
-        letter-spacing: 8px;
-        opacity: 75%;
-        font-size: 2.5em;
-    }
+   
 
     .logocontainer img {
         width: 75%;
@@ -116,241 +111,10 @@
 
    
 }
-/* mobile*/
-@media only screen and (max-width: 869px) {
 
-    #secContacto {
+/********    MOBILE    *******/
 
-        margin-left: 2%;
-        margin-right: 2%;
-        display: grid;
 
-        grid-template-areas:
-            "formulario"
-            "datos"
-            "mapa"
-        ;
-        grid-template-columns: 90%;
-
-        grid-template-rows: 560px 245px 300px;
-        height: 1140px;
-    }
-
-    nav {
-        display: none;
-    }
-
-    .titularConocenos {
-
-        margin-bottom: 20%;
-        font-size: 2em;
-    }
-
-    .formulario {
-        margin-top: 0;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .datos {
-        margin-top: 25px;
-        margin-left: 0;
-    }
-
-    .contactoDatos {
-
-        text-align: center;
-        font-family: 'DM Sans', sans-serif;
-        font-weight: 400;
-        color: #808080;
-        line-height: 1lh;
-        font-size: 1rem;
-        letter-spacing: normal;
-
-    }
-
-    iframe {
-        display: flex;
-        justify-content: center;
-        margin-left: 0;
-        padding-bottom: 0;
-        width: 100%;
-        height: 280px;
-
-    }
-
-    footer {
-
-        width: 100%;
-        height: 290px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 45px;
-        padding-bottom: 45px;
-    }
-
-    .legales {
-        padding-right: 0;
-        font-family: 'DM Sans', sans-serif;
-        font-size: 10pt;
-        color: #fcf7ef;
-        text-align: center;
-    }
-
-    input {
-        margin: 5px;
-        padding: 10px 20px 10px 20px;
-        border: $border2px;
-        font-family: 'DM Sans', sans-serif;
-        font-weight: 400;
-        color: $colorBlue;
-    }
-
-    form {
-        margin-top: 0;
-        width: 100%;
-    }
-
-    .logocontainer img {
-        width: 60%;
-
-    }
-
-    h1 {
-        padding-top: 260px;
-        font-size: 5ex;
-        text-align: center;
-        letter-spacing: 3px;
-        line-height: 2.5ex;
-
-        width: 98%;
-
-    }
-
-    .bajada {
-        padding-top: 18px;
-        padding-bottom: 10px;
-        margin-bottom: 25px;
-        font-size: 14pt;
-        line-height: 20pt;
-        text-align: center;
-
-        width: 96%;
-
-
-    }
-
-    .titulares {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 100px;
-        margin-left: 0;
-
-    }
-
-    #home {
-
-
-        width: 100%;
-        background-color: white;
-        display: grid;
-
-
-        margin-left: 1%;
-        margin-right: 1%;
-        grid-template-areas:
-
-
-            "cardodgral"
-            "cardortodoncia"
-            "cardimplantes"
-            "botonRectangular"
-        ;
-        grid-template-columns: 96%;
-
-        grid-template-rows: 480px 480px 480px 250px;
-        height: 1600px;
-
-    }
-
-    .cardodgral {
-        grid-area: cardodgral;
-        position: relative;
-        top: 0%;
-        max-width: 200px;
-        min-width: none;
-        height: 450px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 2%;
-        margin-right: 2%;
-
-
-
-    }
-
-    .cardortodoncia {
-        grid-area: cardortodoncia;
-        position: relative;
-        top: 0%;
-        max-width: 200px;
-        min-width: none;
-        height: 450px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 2%;
-        margin-right: 2%;
-
-
-    }
-
-
-
-    .cardimplantes {
-        grid-area: cardimplantes;
-        position: relative;
-        top: 0%;
-        max-width: 200px;
-        min-width: none;
-        height: 450px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 2%;
-        margin-right: 2%;
-
-    }
-
-    .tituloContenedor {
-
-
-        background-color: #81b8df;
-        background-image: url(imagescss/holme.jpeg);
-        background-size: 160%;
-        background-position: center -15%;
-        width: 100%;
-        height: 1600px;
-
-
-    }
-
-
-
-    main div h2 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    main div p {
-
-
-        padding-left: 15px;
-
-
-    }
+@media only screen and (max-width: 480px) {
 
 }

@@ -1,14 +1,29 @@
 #secNosotros {
 
+
     background-color: #fcf7ef;
-    padding-top: 25px;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: grid;
+    grid-template-areas:
+
+        "introdras introdras introdras introdras"
+        "dra1       cv1         dra2         cv2"
+
+    ;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+
+    grid-template-rows: 200px 400px;
+    height: 600px;
 
 
-    }
-    
+
+}
+
+body {
+    background-color: #fcf7ef;
+}
+
 
 .titularConocenos {
 
@@ -17,37 +32,10 @@
     opacity: 75%;
 }
 
-.dra1 {
-    background-image: url(imagescss/odontologa1.png);
+.introdras {
 
-    height: 355px;
-    width: 220px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-left: 8%;
-}
+    grid-area: introdras;
 
-.cv1 {
-    padding-top: 30px;
-    width: 350px;
-    height: 300px;
-}
-
-.cv2 {
-    padding-top: 30px;
-    width: 350px;
-    height: 300px;
-    
-}
-
-.dra2 {
-    background-image: url(imagescss/odontologa1.png);
-
-    background-repeat: no-repeat;
-    height: 355px;
-    width: 220px;
-    background-size: 100%;
-    margin-left: 4%;
 }
 
 .introseccion {
@@ -56,14 +44,144 @@
     line-height: 1.5;
     color: $colorBlue;
     font-size: 2rem;
-    margin-left: 8%;
-    margin-right: 8%;
     margin-top: 30px;
     margin-bottom: 50px;
 }
 
+h5 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    color: $colorBlue;
+
+}
+
+.dra1 {
+    grid-area: dra1;
+    background-image: url(imagescss/odontologa1.png);
+    height: 250px;
+    width: 220px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.dra2 {
+    grid-area: dra2;
+    background-image: url(imagescss/odontologa1.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 220px;
+    background-size: 100%;
+    background-position: center;    
+}
+
+.cv1 {
+    margin-left: 3%;
+    grid-area: cv1;
+    padding-top: 30px;
+    max-width: 90%;
+}
+
+.cv2 {
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    margin-left: 3%;
+    grid-area: cv2;
+    padding-top: 30px;
+    max-width: 90%;
+
+}
+
+
+
+
 .dras {
-    margin-left: 25px;
     font-family: 'DM Sans', sans-serif;
     color: #000000;
+}
+
+
+
+// TABLET
+
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+
+
+    .introseccion {
+        font-size: 1.5em;
+    }
+
+    #secNosotros {
+
+        grid-template-areas:
+    
+            "introdras introdras"
+            "dra1       cv1"         
+            "dra2         cv2"
+    
+        ;
+        grid-template-columns: 1fr 2fr;
+    
+        grid-template-rows: 200px 300px 300px;
+        height: 900px;
+    
+    
+    
+    }
+}
+
+// MOBILE
+
+@media only screen and (max-width: 600px) {
+
+    #secNosotros {
+
+        grid-template-areas:
+    
+            "introdras"
+            "dra1"
+            "cv1"         
+            "dra2"
+            "cv2"
+    
+        ;
+        grid-template-columns: 1fr;
+    
+        grid-template-rows: 200px 300px 250px 300px 250px;
+        height: 1400px;
+    
+    
+    
+    }
+    .introseccion {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .dra1{
+        background-position: center;
+        width: 100%;
+        background-size: 65%;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
+    .dra2{
+        background-position: center;
+        background-size: 65%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .cv1{
+        text-align: center;
+    }
+    .cv2{
+        text-align: center;
+    }
+
 }

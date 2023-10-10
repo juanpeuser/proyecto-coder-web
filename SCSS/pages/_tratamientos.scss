@@ -40,3 +40,18 @@ h6 {
     font-family: 'DM Sans', sans-serif;
 
 }
+
+
+// MOBILE
+
+@media only screen and (max-width: 600px) {
+
+.artTratamientos {
+    width: 290px;
+    font-size: smaller;
+}
+
+article {
+    margin-bottom: 55px;
+}
+}
