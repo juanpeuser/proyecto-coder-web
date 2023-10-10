@@ -176,16 +176,17 @@
 
 .tituloContenedor {
 
-    background-color: #81b8df;
+    background-color: $colorBlue;
     background-image: url(imagescss/holme.jpeg);
     background-size: 120%;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     max-height: 700px;
     height: 700px;
     display: flex;
     align-items: center;
+    align-items: flex-start
 
 }
 
@@ -218,4 +219,194 @@ h1 {
     width: 40%;
     text-shadow: rgb(0, 0, 0) 1px 0 5px;
 
+}
+
+// TABLET
+
+@media only screen and (min-width: 870px) and (max-width: 1024px) {
+
+#home {
+
+
+    width: 100%;
+    background-color: white;
+    display: grid;
+
+
+    margin-left: 1%;
+    margin-right: 8%;
+    grid-template-areas:
+
+
+        "cardodgral"
+        "cardortodoncia"
+        "cardimplantes"
+        "botonRectangular"
+    ;
+    grid-template-columns: 96%;
+
+    grid-template-rows: 480px 480px 480px 130px;
+    height: 1600px;
+
+}
+
+h1 {
+    padding-top: 100px;
+    font-size: 5ex;
+    letter-spacing: 3px;
+    line-height: 2.5ex;
+
+    width: 50%;
+
+}
+
+.bajada {
+    padding-top: 18px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    font-size: 14pt;
+    line-height: 20pt;
+    width: 55%;
+
+
+}
+
+.titulares {
+    padding-left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-left: 0;
+
+}
+}
+
+// MOBILE
+
+@media only screen and (max-width: 869px) {
+    .logocontainer img {
+        width: 60%;
+
+    }
+
+    h1 {
+        padding-top: 260px;
+        font-size: 5ex;
+        text-align: center;
+        letter-spacing: 3px;
+        line-height: 2.5ex;
+
+        width: 98%;
+
+    }
+
+    .bajada {
+        padding-top: 18px;
+        padding-bottom: 10px;
+        margin-bottom: 25px;
+        font-size: 14pt;
+        line-height: 20pt;
+        text-align: center;
+
+        width: 96%;
+
+
+    }
+
+    .titulares {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 100px;
+        margin-left: 0;
+
+    }
+
+    #home {
+
+
+        width: 100%;
+        background-color: white;
+        display: grid;
+
+
+        margin-left: 1%;
+        margin-right: 1%;
+        grid-template-areas:
+
+
+            "cardodgral"
+            "cardortodoncia"
+            "cardimplantes"
+            "botonRectangular"
+        ;
+        grid-template-columns: 96%;
+
+        grid-template-rows: 480px 480px 480px 250px;
+        height: 1600px;
+
+    }
+
+    .cardodgral {
+        grid-area: cardodgral;
+        position: relative;
+        top: 0%;
+        max-width: 200px;
+        min-width: none;
+        height: 450px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 2%;
+        margin-right: 2%;
+
+
+
+    }
+
+    .cardortodoncia {
+        grid-area: cardortodoncia;
+        position: relative;
+        top: 0%;
+        max-width: 200px;
+        min-width: none;
+        height: 450px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 2%;
+        margin-right: 2%;
+
+
+    }
+
+
+
+    .cardimplantes {
+        grid-area: cardimplantes;
+        position: relative;
+        top: 0%;
+        max-width: 200px;
+        min-width: none;
+        height: 450px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+
+    .tituloContenedor {
+
+
+        background-color: #81b8df;
+        background-image: url(imagescss/holme.jpeg);
+        background-size: 160%;
+        background-position: center -15%;
+        width: 100%;
+        height: 1600px;
+
+
+    }
 }
