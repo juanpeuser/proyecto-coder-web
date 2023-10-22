@@ -296,18 +296,18 @@ h1 {
 
     }
     .titulareshome {
-        padding-left: 8%;
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items:center;
         margin-top: 0px;
         margin-left: 0;
+        height: auto;
     
     }
 
     .h1home {
-        padding-top: 260px;
+        padding-top: 420px;
         font-size: 5ex;
         text-align: center;
         letter-spacing: 3px;
@@ -318,9 +318,9 @@ h1 {
     }
 
     .bajada {
-        padding-top: 18px;
-        padding-bottom: 10px;
-        margin-bottom: 25px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
         font-size: 14pt;
         line-height: 20pt;
         text-align: center;
@@ -437,8 +437,10 @@ h1 {
     
     }
     .botonesPrincipal {
+ 
         display: flex;
         align-items: start;
         justify-content: center;
+        height: auto;
     }
 }

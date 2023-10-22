@@ -165,3 +165,74 @@ nav:target #hamburguesa li:last-child {
 }
    
 }
+// MOBILE
+
+@media only screen and (max-width: 600px) {
+
+    nav {
+        display: none;
+    }
+    
+    #menu {
+        display: flex;
+        position: fixed;
+        top:0px;
+        left: 84%;
+    
+    }
+    
+    #hamburguesa li:last-child {
+        display: none;
+    }
+    
+    nav:target #barra {
+        display: block;
+    }
+    nav:target #hamburguesa li:first-child {
+        display: none;
+    }
+    nav:target #hamburguesa li:last-child {
+        display: block;
+    }
+    #hamburguesa li {
+        text-align: center;
+        list-style: none;
+        margin-top: .75em;
+        margin-right: 4%;
+        width: 2.5em;
+        height: 2.5em;
+        color: antiquewhite;
+        border: 0.5px solid #008bf0;
+        border-radius: 7%;
+    }
+    
+    #barra {
+        display: none;
+        width: 100%;
+        height: calc(80vh - 4em);
+        position:fixed;
+        top: 82px;
+        left: 0;
+        background: #008bf0;
+    }
+    
+    #barra a {
+    
+        color: white;
+        margin-bottom: 2em;
+      
+    
+    }
+    #barra li {
+        list-style: none;
+        margin: 2em;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-between;
+        border-bottom: .1px solid white;
+    }
+
+
+}
